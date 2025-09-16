@@ -12,6 +12,7 @@ export default antfu({
     semi: true,
     quotes: "double",
   },
+  ignores: ["pnpm-lock.yaml"],
 }, {
   rules: {
     "ts/no-redeclare": "off",
